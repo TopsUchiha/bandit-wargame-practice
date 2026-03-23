@@ -1,0 +1,37 @@
+﻿====================================================
+OMER'S CYBER LAB - PROGRESS LOG
+====================================================
+
+GOAL: International Cybersecurity Expert
+CURRENT STATUS: Level 6 (OverTheWire Bandit)
+
+----------------------------------------------------
+KEY COMMANDS LEARNED TODAY:
+----------------------------------------------------
+1. ls -a          : List all files (including hidden ones starting with .)
+2. cd [folder]    : Change Directory (Move into a folder)
+3. cd ..          : Move back one folder
+4. cat './file'   : Read a file (using ./ avoids errors with dashes)
+5. file ./* : Identify the type of data inside all files in a folder
+6. find . -size X : Search for a file of a specific size (e.g., 1033c)
+7. ssh user@host  : Secure Shell (Connect to a remote server)
+
+----------------------------------------------------
+PASSWORDS CAPTURED:
+----------------------------------------------------
+Level 1: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+Level 2: r63JGJPfgU6LtdEvgfWU1XP5yac29mFx
+Level 3: MNk8KNH3Usii041PRUEODFPqfxLPISmx
+Level 4: 2WmrDFRmJIq3IPxneAaMGhapOpFhF3NJ
+Level 5: 4oQYVPkxZOOE0O5pTW81FB8j8lxXGUQw
+Level 6: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+----------------------------------------------------
+NOTES ON CHALLENGES:
+----------------------------------------------------
+* Spaces in filenames: Use 'single quotes' around the name.
+* Filenames starting with dashes (-): Use './' before the name so Linux doesn't think it's a command option.
+* Case Sensitivity: Linux treats 'H' and 'h' as different characters.
+* Hidden files: Always check with 'ls -a' if a folder looks empty.
+====================================================
+
